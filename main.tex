@@ -98,15 +98,17 @@
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Working Experience}
+\cvsection[page1sidebar]{Experience}
 
-\cvevent{Backend Developer Intern}{IBM Canada - Db2 on Cloud}{May 2019 - Present}{Markham, Ontario, Canada}
+\cvevent{Backend Developer Intern}{IBM Canada - Db2 on Cloud}{May 2019 - Aug 2020}{Markham, Ontario, Canada}
+
  \begin{itemize} 
-  \item Lead contributor of multiple \textbf{control plane} components for a declarative \textbf{controller-based} \textbf{cloud-native} platform running elastic stateful Db2 services with \textbf{High Availability} on\textbf{ Kubernetes}
-  \item Implemented the billing microservice with \textbf{Go}, \textbf{Kubernetes controllers}, and \textbf{Postgresql} to collect and submit high-watermark customer usage for multiple metrics
-  \item Developed the \textbf{gRPC} microservice for dynamically dispatching operations onto customer database instances in \textbf{Kubernetes} clusters with \textbf{Go} \\
-%   \item Integrated our service with IBM Cloud Platform via \textbf{service broker} API written in \textbf{Ruby on Rails}, enabled \textbf{IAM} authentication and authorization for the service APIs.
- \item Built, tested and delivered an automated orchestration pipeline for provisioning production Db2 on cloud \textbf{High Availability} instances on AWS with \textbf{Ansible} \\
+  \item Lead developer of control plane components for a controller-based \textbf{cloud-native} platform running fully-managed High Availability Db2 services on \textbf{Kubernetes}
+
+  \item Implemented billing microservice with \textbf{Golang}, \textbf{Kubernetes Operators} and \textbf{PostgreSQL} to calculate and submit real-time  customer high-watermark database usages at scale
+  \item Consolidated backend \textbf{Golang gRPC} API service with \textbf{Google Protobuf}, delivered business-critical features of self-serve DB maintenance and remote restore \\
+\item Revamped \textbf{Open Service Broker} API implementation with \textbf{Ruby on Rails}, integrating Db2 service with \textbf{IBM Cloud} service catalog and IAM
+ \item Built an automated orchestration pipeline for provisioning \textbf{EC2} instances running High Availability Db2 workloads on \textbf{AWS} with \textbf{Ansible} \\
 %  \item Revamped tools to analyze Db2 application snapshots, achieving \textbf{concurrent processing} and reduced processing time from \textbf{3 mins} to \textbf{2 secs} using \textbf{Go}
 %   \item Delivered a web-based tool for Db2 diagnostic logs analysis using \textbf{Python, Nginx, and Docker}, automating \textbf{3} workloads and significantly enhanced productivity for the team	
   
@@ -117,7 +119,7 @@
 \cvevent{Teaching Assistant}{Department of Computing and Software, McMaster University}{Sep 2018 -- May 2019}{Hamilton, Ontario, Canada}
  \begin{itemize} 
  \item Led weekly tutorials and provided academic assistance to \textbf{100+} students in two core CS courses: Intro to Computational Thinking (\textbf{Haskell}), Intro to Programming (\textbf{Python})
- \item Significantly improved making efficiency by automating weekly grading tasks for the D2L system using 
+ \item Significantly improved marking efficiency by automating weekly grading tasks for the D2L platform using 
 \textbf{Selenium web automation} and \textbf{data scraping}
  
  
@@ -127,10 +129,9 @@
 \cvevent{Full Stack Developer Intern}{Royal Bank of Canada
 }{May 2018 - Sep 2018}{Toronto, Ontario, Canada}
 \begin{itemize}
-  \item Developed an AI-powered business intelligence system for advisors to better engage with clients using \textbf{Python Flask} and \textbf{Angular}
+  \item Developed an AI-powered business insight platform for commercial account managers using \textbf{Python Flask}, \textbf{Angular} and \textbf{Microsoft SQL Server}
   \item Integrated \textbf{business data} from various sources and generated daily industry reports by automating the workflow of \textbf{5} different tasks
-%   \item Designed and implemented scalable \textbf{MS SQL} database model and multiple \textbf{REST API }endpoints
-  \item Implemented caching layer to decrease network calls and improved runtime performance by \textbf{40\%}
+  \item Implemented client-side-caching using \textbf{Angular HTTP Interceptor} to reduce web app latency by \textbf{40\%}
 
  \end{itemize} 
 
@@ -143,19 +144,20 @@
 %  \end{itemize}
 
 
-\cvsection{Skills}
-\cvtag{Flask} \cvtag{Node.js}   \cvtag{HTML}  \cvtag{CSS} \cvtag{Angular} \cvtag{React} \\
- \cvtag{RestAPI} \cvtag{gRPC} \cvtag{SQL}\cvtag{MongoDB} \cvtag{Jenkins}   
+\cvsection{TECHNOLOGIES}
+\cvtag{Flask} \cvtag{Ruby on Rails} \cvtag{Angular} \cvtag{React}  \cvtag{RestAPI} \\
+ \cvtag{gRPC} \cvtag{SQL}\cvtag{MongoDB} \cvtag{Jenkins} \cvtag{RabbitMQ}  
 \divider\smallskip
 \cvtag{Docker} \cvtag{Kubernetes} \cvtag{Helm} \cvtag{AWS}  \cvtag{Git}
 \cvtag{Linux} \cvtag{Ansible}
 
 
 \cvsection{Programming Languages}
-\cvskill{Python, Go}{5}
-\vspace{2.3mm}
-\cvskill{Javascript}{4}
-\vspace{2.3mm}
-\cvskill{Java, Bash}{3}
+% \cvskill{Go, Python}{5}
+% \vspace{2.3mm}
+% \cvskill{Bash, Javascript}{4}
+% \vspace{2.3mm}
+% \cvskill{Java}{3}
+\cvtag{Golang} \cvtag{Python} \cvtag{Javascript} \cvtag{Bash} \cvtag{Java}
 
 \end{document}
